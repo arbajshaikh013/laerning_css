@@ -1,0 +1,15 @@
+h3{
+   color: red;
+            background-color: green;
+            font-size: 50px; 
+}
+p{
+    color: green;
+            background-color: blue;
+            font-size: 35px; 
+}
+
+thead,tfoot,tbody{
+     color: blue;
+            background-color: yellow;
+}
