@@ -1,7 +1,8 @@
 h3{
    color: red;
             background-color: green;
-            font-size: 50px; 
+            font-size: 50px;
+            text-align: center; 
 }
 p{
     color: green;
@@ -13,3 +14,52 @@ thead,tfoot,tbody{
      color: blue;
             background-color: yellow;
 }
+
+.t_transform_uppercase{
+    text-transform: uppercase;
+}
+.t_transform_lowercase{
+    text-transform: lowercase;
+}
+.t_transform_capitalize{
+    text-transform: capitalize;
+}
+.t_align_center{
+    text-align: center;
+}
+.t_align_right{
+    text-align: right;
+}
+.t_align_over{
+      text-decoration: overline;
+}
+.t_align_line{
+      text-decoration: line-through;
+}
+.t_align_under{
+     text-decoration: underline;
+}
+.t_indent{
+    text-indent: 160px;
+}
+.t_line_height{
+    line-height: 28px;
+}
+.t_letter_spacing{
+    letter-spacing: 40px;
+}
+.t_word_spacing{
+   word-spacing: 40px
+}
+.t_shadow{
+    color: blueviolet;
+    text-shadow: 0px 3px 5px red;
+    color:brown;
+    text-align: center;
+}
+.t_shadow2{
+    color: green;
+    text-shadow: 5px 4px 6px violet;
+    text-align:center;
+}
+
