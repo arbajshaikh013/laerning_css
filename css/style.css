@@ -63,3 +63,7 @@ thead,tfoot,tbody{
     text-align:center;
 }
 
+.images flash.jpg{
+    width: 200px;
+    box-shadow: 5px 6px 7px red;
+}
