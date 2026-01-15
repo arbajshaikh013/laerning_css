@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .relative{
+        position : relative;
+        height: 600px;
+        width: 600px;
+        background-color: darkcyan;
+        left: 100px;
+    } 
+    #tv{
+        position: absolute;
+        height: 50px;
+        width: 150px;
+        background-color: green;
+        left: 200px;
+    }
+     #sofa{
+        position: absolute;
+        height: 100px;
+        width: 250px;
+        background-color: blueviolet;
+        left: 200px;
+        top: 120px;
+    }
+     #fride{
+        position: absolute;
+        height: 80px;
+        width: 100px;
+        background-color : yellowgreen;
+        left: 500px;
+        top: 300px;
+    }
+ .div{
+    position: static;
+ }
+</style>
+<body>
+   <div class="relative">
+        <div id="tv">TV</div>
+         <div id="sofa">SOFA</div>
+          <div id="fride">FRIDE</div>
+   </div> 
+</body>
+</html>
