@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+   div{
+   width: 150px;
+   height: 150px;
+   border-radius: 10px;
+   gap:30px ;
+   background-color: red;
+   position: relative;
+   animation: movingbox;
+   animation-duration: 20s;
+   animation-iteration-count: infinite;
+   animation-delay: 1s;
+   animation-direction: alternate;
+   }
+   @keyframes movingbox{
+    0%{background-color: red;left: 0px;top: 0px;}
+    25%{background-color: yellow;left: 300px;top: 0px;}
+    50%{background-color: blue;left: 300px;top: 300px;}
+    75%{background-color: blanchedalmond;left: 0px;top: 300px;}
+    100%{background-color: red;left: 0px;top: 0px;}
+   }
+   
+
+    box1{
+   width: 50px;
+   height: 50px;
+   border-radius: 10px;
+   gap: 30px;
+   background-color: red;
+   position: relative;
+   animation: movingbox;
+   animation-duration: 20s;
+   animation-iteration-count: infinite;
+   animation-delay: 1s;
+   animation-direction: alternate;
+   }
+   @keyframes movingbox{
+    0%{background-image: url(css/img_b_shadow/deer\ pic.jpg);left: 0px;top: 0px;}
+    25%{background-image: url(css/img_b_shadow/cartoon.jpg);left: 300px;top: 0px;}
+    50%{background-image: url(css/img_b_shadow/images1.jpg);left: 300px;top: 300px;}
+    75%{background-image: url(css/img_b_shadow/dog\ pic.jpg);left: 0px;top: 300px;}
+    100%{background-image: url(css/img_b_shadow/tree\ pic.jpg);left: 0px;top: 0px;}
+   }
+   
+</style>
+<body>
+<div></div>
+</body>
+</html>

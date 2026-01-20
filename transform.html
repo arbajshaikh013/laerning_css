@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+     .container{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+       gap: 30px;
+        padding-top: 50px;
+     }
+     .box{
+        background-color: darkorange;
+        border-radius: 10px;
+        height: 250px;
+        width: 250px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 14px;
+        transition: transform 2s ease-in 500ms;
+     }
+     .boxes1:hover{
+        transform: translate(125px,125px);
+     }
+     .boxes2:hover{
+        transform: translateX(80px);
+     }
+     .boxes3:hover{
+        transform: translateY(80px);
+     }
+      .boxes4:hover{
+        transform: rotate(180deg);
+      }
+      .boxes5:hover{
+        transform: skew(20deg,30deg);
+      }
+      .boxes6:hover{
+        transform: skewX(20deg);
+      }
+      .boxes7:hover{
+        transform: skewY(20deg);
+      }
+      .boxes8:hover{
+        transform: scale(1.5);
+      }
+      .boxes9:hover{
+        transform: rotate(90deg) scale(2) skew(30deg);
+      }
+</style>
+<body>
+   <!-- sortcut.. div.container>div.box*6 -->
+    <div class="container">
+        <div class="box boxes1">translate</div>
+        <div class="box boxes2">translate X</div>
+        <div class="box boxes3">translate Y</div>
+        <div class="box boxes4">rotate</div>
+        <div class="box boxes5">skew</div>
+        <div class="box boxes6">skewX</div>
+        <div class="box boxes7">skewY</div>
+        <div class="box boxes8">scale</div>
+        <div class="box boxes9">multi</div>
+    </div>
+</body>
+</html>
