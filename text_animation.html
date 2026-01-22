@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .text-container{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: sans-serif;
+        letter-spacing: 4px;
+        font-size: 70px;
+        font-weight: 800;
+        perspective: 50px;
+    }
+    .text-container >b{
+        height: 80px;
+        box-shadow: 0px 30px 15px gray;
+        background: linear-gradient(to right,red,green);
+        background-clip: text;
+        color: transparent;
+        transform-origin: bottom;
+       /* transform: rotateX(-85deg);*/
+        animation: getUp 10s infinite;
+    }
+    .text-container>b:nth-child(1)
+    {
+      animation-delay: 0s;
+    }
+    .text-container>b:nth-child(2)
+    {
+        animation-delay: 0.25s;
+    }
+    .text-container>b:nth-child(3)
+    {
+        animation-delay: 0.50s; 
+    }
+      .text-container>b:nth-child(4)
+      {
+         animation-delay: 0.75s; 
+      }
+      .text-container>b:nth-child(5)
+      {
+         animation-delay: 1s; 
+      }
+
+      @keyframes getup{
+        from{transform: rotateX(-85deg);}
+        10%,50%{transform: rotateX(0);}
+        60%,to{transform: rotateX(-85deg);}
+      }
+</style>
+<body>
+    <h1>3D rotationg text</h1>
+    <div class="text-container">
+        <b>A</b><b>N</b><b>A</b><b>N</b><b>D</b>
+    </div>
+</body>
+</html>
